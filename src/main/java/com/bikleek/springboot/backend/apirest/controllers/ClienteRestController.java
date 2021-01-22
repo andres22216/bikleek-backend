@@ -46,7 +46,7 @@ public class ClienteRestController {
 		clienteActual.setApellido(cliente.getApellido());
 		clienteActual.setCorreo(cliente.getCorreo());
 		clienteActual.setDireccion(cliente.getDireccion());
-		clienteActual.setFechaCreacion(cliente.getFechaCreacion());
+		clienteActual.setFechaCreacion(new Date());
 		
 		clienteActualizado = clienteService.save(clienteActual);
 		
