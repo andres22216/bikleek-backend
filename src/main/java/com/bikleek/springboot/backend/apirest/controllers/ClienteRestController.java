@@ -50,8 +50,6 @@ public class ClienteRestController {
 		
 		clienteActualizado = clienteService.save(clienteActual);
 		
-		System.out.println("Cliente guardado.....");
-		
 		return clienteActualizado;
 	}
 	
